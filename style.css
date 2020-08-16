@@ -1,0 +1,66 @@
+nav {
+    height: 10vh;
+    min-height: 4em;
+    position: relative;
+}
+#start {
+    background-image: url('images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.central {
+    display: flex;
+    flex-direction: column;
+}
+.central > h1 {
+    font-size: 48px !important;
+}
+#advantages {
+    background-image: url('images/advantages.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#advantages .row {
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    min-height: 30vh
+}
+#advantages .col {
+    margin: 2em;
+}
+.img {
+    display: flex;
+}
+.img > img {
+    margin: auto;
+}
+#advantages .col > img {
+    margin: auto;
+}
+#advantages h2 {
+    font-size: 42px !important;
+}
+#footer {
+    background-color: #000000;
+}
+#footer .col {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#footer .col > ul {
+    padding: 0px;
+}
+#footer .col > ul > li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+
