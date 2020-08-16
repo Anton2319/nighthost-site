@@ -1,0 +1,119 @@
+<html lang="ru">
+<head>
+    <title>NightHost</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/normalize.css">        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark text-light" style="background-color: #000000;">
+        <a class="navbar-brand" href="/">
+            <b>NightHost</b>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="/services/hosting/">Хостинг сайтов</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/services/vds/">Хостинг VDS/VPS на KVM</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/services/minecraft/">Minecraft сервера</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Войти</button>
+        </form>
+    </nav>
+    <section id="plans">
+        <div class="central">
+            <h1 class="text-light text-center"><b>Планы хостинга сайтов:</b></h1>
+            <div class="container text-light">
+                <div class="row">
+                    <div class="col">
+                        <h3><b>Простейший</b></h3>
+                        <p>Подойдёт для хостинга персональных страниц или статичных сайтов, отсутствует поддержка PHP</p>
+                        <ul>
+                            <li>5 ГБ места на диске</li>
+                            <li>Без поддержки PHP</li>
+                            <li>Невозможно делигировать управление на другой аккаунт</li>
+                            <li>Нет SSH доступа</li>                      
+                        </ul>
+                        <h5><b>29 Руб./мес</b></h5>
+                        <button class="btn btn-outline-light">В корзину</button>
+                    </div>
+                    <div class="col">
+                        <h3><b>Легкий</b></h3>
+                        <p>Предназначен для ведения блогов или динамичных сайтов, поддерживает PHP 7 последней версии</p>
+                        <ul>
+                            <li>15 ГБ места на диске</li>
+                            <li>PHP 7+</li>
+                            <li>До 5 подключенных аккаунтов</li> 
+                            <li>SSH/SFTP доступ</li>
+                            <li>Услуга хостинга БД MySQL/PostgreSQL покупается отдельно</li>                      
+                        </ul>
+                        <h5><b>149 Руб./мес</b></h5>
+                        <button class="btn btn-outline-light">В корзину</button>
+                    </div>
+                    <div class="col">
+                        <h3><b>Средний</b></h3>
+                        <p>Для сайтов организаций или форумов, в тариф включена база данных MySQL</p>
+                        <ul>
+                            <li>100 ГБ места на диске</li>
+                            <li>PHP 7+</li>
+                            <li>До 10 подключенных аккаунтов</li> 
+                            <li>SSH/SFTP доступ</li>
+                            <li>MySQL 5+</li>                      
+                        </ul>
+                        <h5><b>799 Руб./мес</b></h5>
+                        <button class="btn btn-outline-light">В корзину</button>
+                    </div>
+                    <div class="col">
+                        <h3><b>Продвинутый</b></h3>
+                        <p>Для высоконагруженных сайтов компаний, интернет магазинов, неограниченное место на диске и неограниченное количество баз данных MySQL/PostgreSQL</p>
+                        <ul>
+                            <li>Неограниченное место на диске</li>
+                            <li>PHP 7+</li>
+                            <li>Неограниченное количество подключенных аккаунтов</li>
+                            <li>SSH/SFTP доступ</li>
+                            <li>MySQL 5+/PostgreSQL 12+</li>                      
+                        </ul>
+                         <h5><b>2499 Руб./мес</b></h5>
+                        <button class="btn btn-outline-light">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-light text-center"><b>Возможностей виртуального хостинга не хватает? <a href="#" class="text-light">Переходите на VDS!</a></b></h2>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container text-light">
+            <div class="row">
+                <div class="col" id="contacts">
+                    <h5><b>Контакты:</b></h5>
+                    <ul>
+                        <li><b>support@nighthost.ru</b></li>
+                        <li><b>VK @nighthost</b></li>
+                        <li><b>8(800)555-35-35</b></li>
+                    </ul>
+                </div>
+                <div class="col" id>
+                    <h5><b>Ссылки:</b></h5>
+                    <ul>
+                        <li><b><a class="text-light" href="#">FAQ</a></b></li>
+                        <li><b><a class="text-light" href="/LICENSE">CopyLeft лицензия и права на использование исходного кода</a></b></li>
+                        <li><b><a class="text-light" href="https://github.com/Anton2319/nighthost-site">Исходный код на GitHub</a></b></li>
+                    </ul>
+                </div>
+                <div class="col img">
+                    <img src="/images/logo.svg" width="100">
+                    <h5 style="margin: auto;">🄯NightHost 2020</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

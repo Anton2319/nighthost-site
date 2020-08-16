@@ -63,4 +63,34 @@ nav {
     list-style-type: none;
     margin-bottom: 0.5em;
 }
-
+#plans {
+    background-image: url('images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    //min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15vh;
+}
+#plans .col {
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.97);
+    margin: 0.2em;
+    border-radius: 4px;
+}
+#plans .col > p {
+    min-height: 8em;
+}
+#plans .row {
+    margin-bottom: 2em;
+}
+#plans .col > ul {
+    padding: 0px;
+    min-height: 13em;
+}
+#plans .col > ul > li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
