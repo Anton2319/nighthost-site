@@ -94,3 +94,27 @@ nav {
     list-style-type: none;
     margin-bottom: 0.5em;
 }
+#login {
+    background-image: url('images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#login input {
+    background-color: inherit;
+    color: white;
+    outline: none;
+    border: 1px solid gray;
+}
+.login {
+    background-color: rgba(0, 0, 0, 0.97);
+    padding: 2em;
+    border-radius: 4px;
+}
+.login h1 {
+    margin-top: 0;
+}

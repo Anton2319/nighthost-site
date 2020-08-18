@@ -1,0 +1,63 @@
+<html lang="ru">
+<head>
+    <title>NightHost</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/normalize.css">        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark text-light" style="background-color: #000000;">
+        <a class="navbar-brand" href="/">
+            <b>NightHost</b>
+        </a>
+    </nav>
+    <section id="login">
+        <div class="central">
+            <div class="login text-light container">            
+                <h1><b>Вход в панель управления NightHost</b></h1>                  
+                <form action="login.php" method="post">
+                    <div class="form-group">
+                        <label for="username">Логин или email</label>
+                        <input type="login" class="form-control" id="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-outline-light">Войти</button>
+                    </div>
+                </form>
+             </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container text-light">
+            <div class="row">
+                <div class="col" id="contacts">
+                    <h5><b>Контакты:</b></h5>
+                    <ul>
+                        <li><b>support@nighthost.ru</b></li>
+                        <li><b>VK @nighthost</b></li>
+                        <li><b>8(800)555-35-35</b></li>
+                    </ul>
+                </div>
+                <div class="col" id>
+                    <h5><b>Ссылки:</b></h5>
+                    <ul>
+                        <li><b><a class="text-light" href="#">FAQ</a></b></li>
+                        <li><b><a class="text-light" href="/LICENSE">CopyLeft лицензия и права на использование исходного кода</a></b></li>
+                        <li><b><a class="text-light" href="https://github.com/Anton2319/nighthost-site">Исходный код на GitHub</a></b></li>
+                    </ul>
+                </div>
+                <div class="col img">
+                    <img src="/images/logo.svg" width="100">
+                    <h5 style="margin: auto;">🄯NightHost 2020</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
