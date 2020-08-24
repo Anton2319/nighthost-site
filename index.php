@@ -29,8 +29,8 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <?php
-            if(isset($_SESSION['user'])) {
-                echo '<b>Привет, '.$_SESSION['user'].'</b>';
+            if(isset($_SESSION['username'])) {
+                echo '<b class="username">Привет, '.$_SESSION['username'].'</b>';
                 echo '<a class="btn btn-outline-light my-2 my-sm-0" href="/logout.php">Выйти</a>';      
             }
             else {

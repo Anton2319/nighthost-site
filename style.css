@@ -3,6 +3,10 @@ nav {
     min-height: 4em;
     position: relative;
 }
+nav .username {
+    margin-right: 1em;
+    font-size: 1.15rem;
+}
 #start {
     background-image: url('images/main.jpg');
     background-size: cover;
